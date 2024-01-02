@@ -1,0 +1,78 @@
+:root{
+    --peach : peachpuff;
+    --lavender : rgb(182, 182, 230);
+    --pastel-green : rgb(193, 225, 193);
+}
+
+p{
+    text-align: center;
+    padding: 5%;
+    padding-bottom: 1%;
+    color: white;
+    font-family: monospace;
+    font-size: x-large;
+}
+
+#canvas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Display{
+    height: 300px;
+    width: 80%;
+    background-color:white;
+    border-radius: 3%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    padding: 3%;
+}
+
+.switches{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.button{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    border-radius: 20%;
+    border-style: solid;
+    border-color: transparent;
+}
+
+.button:hover{
+    border-style:outset;
+    border-color: black;
+}
+
+#Peach{
+    background-color: var(--peach);
+}
+
+#Lavender{
+    background-color: var(--lavender);
+}
+
+#Pastel-Green{
+    background-color: var(--pastel-green);
+}
+
+#Red{
+    background-color: red;
+}
+
+#Green{
+    background-color: green
+}
+
+#Blue{
+    background-color: blue
+}
+
+
