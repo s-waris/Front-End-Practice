@@ -1,14 +1,12 @@
+*{
+  margin-top: 40px;
+}
+
 p{
   text-align: center;
-  padding: 5%;
-  padding-bottom: 1%;
   color: white;
   font-family: monospace;
   font-size:xx-large;
-}
-
-a{
-  color: rgb(154, 154, 246);
 }
 
 body{
@@ -17,8 +15,6 @@ body{
 
 a{
   text-align: center;
-  padding: 5%;
-  padding-bottom: 1%;
   color: white;
   font-family: monospace;
   font-size:xx-large;
