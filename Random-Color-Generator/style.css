@@ -1,0 +1,36 @@
+* {
+  background-color: #212121;
+}
+
+h1 {
+  justify-content: center;
+  display: flex;
+  color: aliceblue;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.butt {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#box {
+  background-color: gray;
+  height: 300px;
+  width: 300px;
+}
+
+button {
+  display: block;
+  height: 30px;
+  width: 100px;
+  background-color: darkslategrey;
+  color: aliceblue;
+}
