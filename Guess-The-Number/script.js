@@ -8,11 +8,14 @@ document.querySelector('#startButton').addEventListener('click', () => {
   var chancesRemaining = chances+" chances remaining";
   document.querySelector('#chancesRemaining').innerHTML=chancesRemaining;
   document.querySelector('#guesses').value="";
+  document.querySelector('#feedback').value = "";
 });
 
   document.querySelector('#submitGuess').addEventListener('click', () => {
     --chances;
-    if (chances<1) {
+    if (chances<0) {
+      document.querySelector('#feedback').value = "";
+      document.querySelector('#guesses').value="";
       alert("Start again!");
     }
     else{
