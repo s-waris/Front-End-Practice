@@ -1,0 +1,26 @@
+body {
+  background-color: black;
+  height: 100vh;
+  margin: 0;
+}
+
+.discoButton {
+  text-align: center; /* Centers the button horizontally */
+  width: 100%; /* Ensures the container spans the full width of its parent */
+}
+
+#discoBtn {
+  padding: 6px;
+  margin-top: 20px; /* Adds some space at the top, adjust as needed */
+  font-size: 16px;
+  color: #fff;
+  background-color: #555;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.discoLights{
+  display: flex;
+  justify-content: center;
+}
