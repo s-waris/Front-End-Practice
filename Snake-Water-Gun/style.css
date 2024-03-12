@@ -1,0 +1,55 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.game-container {
+  text-align: center;
+  padding: 50px;
+  color: white;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.choices {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+#user-choice button, #computer-choice button, #restart {
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #333;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+#user-choice button:hover, #restart:hover {
+  background-color: #555;
+}
+
+.score {
+  font-size: 1.5em;
+}
+
+#computer-choice {
+  min-height: 50px;
+}
+
+#computer-selection {
+  font-size: 1.2em;
+  background: #333;
+  color: white;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+body {
+  background: #121212; /* Dark background for the game */
+}
+

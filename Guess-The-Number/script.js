@@ -9,6 +9,7 @@ document.querySelector('#startButton').addEventListener('click', () => {
   document.querySelector('#chancesRemaining').innerHTML=chancesRemaining;
   document.querySelector('#guesses').value="";
   document.querySelector('#feedback').value = "";
+  document.querySelector('#guessInput').value = "";
 });
 
   document.querySelector('#submitGuess').addEventListener('click', () => {
