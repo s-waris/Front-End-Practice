@@ -1,0 +1,54 @@
+body {
+  padding: 20px;
+  background-color: #212121;
+  color: white; /* Assuming you want white text for better contrast */
+}
+
+.heading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: x-large;
+}
+
+.textArea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  margin: 40px;
+  background-color: aliceblue;
+  min-height: 50px;
+  width: 90%;
+  font-size: large;
+  border: none;
+  padding: 10px;
+  border-radius: 15px;
+  overflow-y: auto;
+  overflow-x: disabled;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  margin: 40px;
+  background-color: #004288;
+  color: white;
+  border: none;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  cursor: pointer;
+  border: #212121;
+  border-width: 0.5px;
+  border-radius: 15px;
+}

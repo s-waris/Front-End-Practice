@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 0;
+  background-color: #212121;
+}
+
+select {
+  width: 90%;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}
+
+
+.container {
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 90%;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  resize: none; /* Prevents resizing */
+  background-color: #fff;
+  overflow-y: auto;
+}
+label {
+  color: aliceblue;
+  font-size: 18px;
+  font-weight: bold;
+  display: block; /* Ensure the label is on its own line */
+  margin-top: 20px;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  margin: 40px;
+  background-color: #004288;
+  color: white;
+  border: none;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  cursor: pointer;
+  border: #212121;
+  border-width: 0.5px;
+  border-radius: 15px;
+}
